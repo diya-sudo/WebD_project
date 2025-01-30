@@ -161,7 +161,54 @@ header .search-bar-container label:hover{
 
 }
 .popularplaces .box-container .box img{
-    height: 25rem;
+    height: 20rem;
     width:100%;
     object-fit:cover;
+}
+.popularplaces .box-container .box .content{
+    padding: 1rem;
+}
+.popularplaces .box-container .box .content h3{
+    font-size: 0.5rem;
+    color:#333;
+}
+.popularplaces .box-container .box .content h3 i{
+    color:#333;
+}
+
+.popularplaces .box-container .box .content p{
+    font-size:1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+.stars i{
+    color: gold
+}
+.footer{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.pictures {
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    justify-content: center;
+    padding:2rem;
+}
+.pictures .boxg{
+    width:300px;
+    height:300px;
+    flex: 1 1 calc(33.33% -1rem);
+    max-width: 300px;
+    border-radius: .5rem;
+    overflow:hidden;
+    box-shadow:  0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.pictures img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: .5rem; /* Smooth corners */
 }
